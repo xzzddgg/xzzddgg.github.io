@@ -96,9 +96,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-landscape-1.1.0
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Mermaid
+mermaid:
+  enable: true
+  version: "11.6.0"  # 可选
+  theme: "default"  # 可选：dark/forest
